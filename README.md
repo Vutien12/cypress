@@ -33,11 +33,11 @@ Thực hành kiểm thử tự động end-to-end bằng **Cypress** cho trang w
 
 | Tên tệp                  | Mô tả                                     |
 | ------------------------ | ----------------------------------------- |
-| `login_success.cy.js`    | Kiểm tra đăng nhập thành công             |
-| `login_failure.cy.js`    | Kiểm tra đăng nhập thất bại               |
-| `cart_add.cy.js`         | Thêm sản phẩm vào giỏ hàng                |
-| `cart_remove.cy.js`      | Xóa sản phẩm khỏi giỏ hàng                |
-| `sort_price.cy.js`       | Sắp xếp sản phẩm theo giá từ thấp đến cao |
+| `login_spec.cy.js`       | Kiểm tra đăng nhập thành công             |
+| `login1_spec.cy.js`      | Kiểm tra đăng nhập thất bại               |
+| `cart_spec.cy.js`        | Thêm sản phẩm vào giỏ hàng                |
+| `cart1_spec.cy.js`       | Xóa sản phẩm khỏi giỏ hàng                |
+| `cart2_spec.cy.js`       | Sắp xếp sản phẩm theo giá từ thấp đến cao |
 | `checkout_process.cy.js` | Kiểm tra quy trình thanh toán             |
 
 
