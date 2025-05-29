@@ -11,5 +11,8 @@
   "description": "",
   "devDependencies": {
     "cypress": "^14.4.0"
+  },
+  "dependencies": {
+    "cypress-exercise": "file:"
   }
 }
