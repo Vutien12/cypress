@@ -51,6 +51,10 @@ Thực hành kiểm thử tự động end-to-end bằng **Cypress** cho trang w
 
 3. Giao diện Cypress sẽ hiện lên, chọn file .cy.js bạn muốn kiểm thử.
 
+📸 Kết quả kiểm thử
+
+Video nằm trong file Ketqua.zip
+
 
 
 
