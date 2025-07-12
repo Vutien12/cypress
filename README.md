@@ -33,11 +33,19 @@ Thực hành kiểm thử tự động end-to-end bằng **Cypress** cho trang w
 
 | Tên tệp                  | Mô tả                                     |
 | ------------------------ | ----------------------------------------- |
+<<<<<<< HEAD
 | `login_success.cy.js`    | Kiểm tra đăng nhập thành công             |
 | `login_failure.cy.js`    | Kiểm tra đăng nhập thất bại               |
 | `cart_add.cy.js`         | Thêm sản phẩm vào giỏ hàng                |
 | `cart_remove.cy.js`      | Xóa sản phẩm khỏi giỏ hàng                |
 | `sort_price.cy.js`       | Sắp xếp sản phẩm theo giá từ thấp đến cao |
+=======
+| `login_spec.cy.js`       | Kiểm tra đăng nhập thành công             |
+| `login1_spec.cy.js`      | Kiểm tra đăng nhập thất bại               |
+| `cart_spec.cy.js`        | Thêm sản phẩm vào giỏ hàng                |
+| `cart1_spec.cy.js`       | Xóa sản phẩm khỏi giỏ hàng                |
+| `cart2_spec.cy.js`       | Sắp xếp sản phẩm theo giá từ thấp đến cao |
+>>>>>>> e58f5320bd30366ab16465c7a3ce72d077b3ec33
 | `checkout_process.cy.js` | Kiểm tra quy trình thanh toán             |
 
 
@@ -51,6 +59,13 @@ Thực hành kiểm thử tự động end-to-end bằng **Cypress** cho trang w
 
 3. Giao diện Cypress sẽ hiện lên, chọn file .cy.js bạn muốn kiểm thử.
 
+<<<<<<< HEAD
+=======
+📸 Kết quả kiểm thử
+
+Video nằm trong file Ketqua.zip
+
+>>>>>>> e58f5320bd30366ab16465c7a3ce72d077b3ec33
 
 
 
