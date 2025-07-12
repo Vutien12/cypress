@@ -42,7 +42,7 @@ describe('🛒 Cart Operations Test Suite', () => {
     cy.wait(1000);
   };
 
-  it('🧪 Test 1: Add 10 products with random quantities and verify in cart', () => {
+  it('Test 1: Add 10 products with random quantities and verify in cart', () => {
     addedItems.length = 0;
 
     cy.get('.product-card').should('have.length.gte', 10);
@@ -67,15 +67,10 @@ describe('🛒 Cart Operations Test Suite', () => {
         });
     });
 
-    // Đợi đảm bảo mọi thứ thêm xong
     cy.wait(1500);
     cy.get('[data-cy="open-cart"]').click();
     cy.wait(500);
-
-    // ✅ Kiểm tra số lượng sản phẩm trong giỏ
     cy.get('.cart-item').should('have.length', 10);
-
-    // ✅ Kiểm tra từng sản phẩm theo tên và số lượng
     addedItems.forEach((item) => {
       cy.get('.cart-item')
         .contains(item.name)
@@ -86,7 +81,7 @@ describe('🛒 Cart Operations Test Suite', () => {
     });
   });
 
-  it('🧪 Test 2: Add products then randomly change quantities and verify total', () => {
+  it('Test 2: Add products then randomly change quantities and verify total', () => {
     addRandomProducts();
     cy.get('[data-cy="open-cart"]').click();
     cy.wait(500);
@@ -127,7 +122,7 @@ describe('🛒 Cart Operations Test Suite', () => {
       });
   });
 
-  it('🧪 Test 3: Add products then remove half of cart items', () => {
+  it('Test 3: Add products then remove half of cart items', () => {
     addRandomProducts();
     cy.get('[data-cy="open-cart"]').click();
     cy.wait(500);
@@ -150,7 +145,7 @@ describe('🛒 Cart Operations Test Suite', () => {
       });
   });
 
-  it('🧪 Test 4: Add products then clear the cart', () => {
+  it('Test 4: Add products then clear the cart', () => {
     addRandomProducts();
     cy.get('[data-cy="open-cart"]').click();
     cy.wait(500);
