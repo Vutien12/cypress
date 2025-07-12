@@ -100,8 +100,6 @@ npx cypress run
 ![login fail](./images/login_failure_spec.cy.js.png)
 ![cart](./images/cart_spec.cy.js.png)
 ![filter-sort](./images/shop_filter_and_sort_spec.cy.js.png)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IRr_5AmZyts" frameborder="0" allowfullscreen></iframe>
 ![video](./images/cypress.mkv)
 
 ### 🎥 Video
